@@ -17,3 +17,8 @@ I'd like this system to be just super robust, all-in-one for coding the pico. Sh
 
 ## VS Code Intellisense?
 It would be nice to maybe have a pico extension or something for color coding, autocomplete, and to get rid of the red squigle lines of death. I've got no clue how involved that is. I could probably just get away with using the C++ and/or Python extensions (respective to their file types)
+
+## Things to do
+1. Systems - IDE integration, auto compilation, script transfer, installer
+1. General purpose library
+1. 
