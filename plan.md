@@ -21,4 +21,15 @@ It would be nice to maybe have a pico extension or something for color coding, a
 ## Things to do
 1. Systems - IDE integration, auto compilation, script transfer, installer
 1. General purpose library
-1. 
+1. Workflow
+
+
+`pico -new projectName` - This creates `.pico` folder with build tools
+
+`pico -make` - Builds the project, results in a single `out.uf2` output file
+
+`pico -build` - Builds the project and looks for target to add to. Uses prompts to guide the user to upload
+
+`pico -mc.py` - Set to micro python
+
+`pico -cr.py` - Set to circuit python
