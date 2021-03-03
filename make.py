@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 import os
 
+## Verify this works on windows.... hopefully.
+
 def make(build):
     # Directory should have all needed systems at this point
 

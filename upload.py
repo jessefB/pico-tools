@@ -2,6 +2,8 @@
 import os
 import time
 
+## Make it robust!!! The program should never fail
+
 def upload():
     waitTime = 10    # Wait for x seconds looking for the drive
     project_directory = "./"
@@ -24,6 +26,8 @@ def upload():
 
     # Prompt to connect the drive
     print("Unplug Pico, hold BOOTSEL button, and reconnect")
+
+    # It would be nice if searching had animated periods... I think.
     print("Searching...")
 
 
@@ -40,4 +44,4 @@ def upload():
 
     os.system("cp " + project_directory + "/" + uf2_file + " " + pico_location)
 
-    print("Success. Go watch WandaVision now.")
+    print("Success. Go watch WandaVision now. You earned it :)")

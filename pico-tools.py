@@ -2,6 +2,8 @@
 import new, make, upload
 import argparse
 
+## Put all tools in one file. That will simplify stuff a lot. I think. Ask bro. macbeth
+
 # First things first - get the argument parser up and running
 parser_message = "May the force be with you and the odds ever in your favor. I have spoken."
 parser = argparse.ArgumentParser(prog="pico", usage="%(prog)s [options]", epilog=parser_message)

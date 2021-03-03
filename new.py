@@ -3,14 +3,19 @@ import os
 import shutil
 
 
+## Add robustness. Try/catch, user frinedly, etc. Make it awesome
+
+
 def new(projectName):
     # General variables
     working_path = "./"
     project_name = projectName
+    # This needs to be figured out for multi file support
     source_files = "main.cpp"
     libraries = "pico_stdlib"
-    cmake_list_source = "/Applications/pico/pico-sdk/external/CMakeLists.txt"
-    pico_import_source = "/Applications/pico/pico-sdk/external/pico_sdk_import.cmake"
+    # os.path.join? for next lines?
+    cmake_list_source = os.environ("PICO_SDK_PATH") + "/external/CMakeLists.txt"
+    pico_import_source = os.environ("PICO_SDK_PATH") + "/external/pico_sdk_import.cmake"
 
 
     directory = ".pico"
