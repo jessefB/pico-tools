@@ -4,7 +4,7 @@ This code is designed as a command line tool to completely automate the developm
 
 I was very used to the ease of coding through the Arduino enviornment, so when the Pico came along and I suddenly had to deal with complex CMake files and distributed SDK's, I started to lose interest because of the complexity. However, I wanted to be able to use the Pico in my projects, so I built these tools to make developing for the Pico much easier.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/u3760nAELUw)
 
 # Setup
 
